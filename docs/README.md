@@ -5,7 +5,7 @@ config:
   -
     # type: hero
     type: banner
-    banner: 'http://47.95.197.116/api/images/4.jpg'
+    banner: '/assets/images/home.jpg'
     # full: true
     # background: tint-plate
     # bannerMask: 0.1
