@@ -1,6 +1,8 @@
 :root {
   /** 主题颜色 */
-
+  --vp-c-text-hero-name: #d9ecff;
+  --vp-c-text-hero-tagline: #8cccd5;
+  --vp-c-text-hero-text: #d9ecff;
   /*
   --vp-c-brand-1: #5086a1;
   --vp-c-brand-2: #6aa1b7;
