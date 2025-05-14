@@ -44,7 +44,7 @@ export default defineThemeConfig({
   //   copyright: '',
   // },
   footer: {
-    message: `<a rel="nofollow" target="_blank" href="https://beian.miit.gov.cn/" title="粤ICP备2025414162号-1" style="text-decoration: none;"><img src="/assets/icon/icp.svg" style="vertical-align: text-bottom; height: 16px;display: inline-block" />粤ICP备2025414162号-1</a>`,
+    message: `<a rel="nofollow" target="_blank" href="https://beian.miit.gov.cn/" title="粤ICP备2025414162号-1" style="text-decoration: none;"><img src="/assets/icon/icp.svg" style="vertical-align: text-bottom; height: 16px;display: inline-block" />粤ICP备2025414162号-1</a><a style="margin-left: 10px; text-decoration: none;" href="https://icp.gov.moe/?keyword=20258387" target="_blank"><img src="/assets/icon/micp.png" style="vertical-align: text-bottom; height: 16px;display: inline-block" />萌ICP备20258387号</a>`,
     copyright: "© Copyright 2025 All Rights Reserved. 版权所有：Carol-LD",
   },
 
