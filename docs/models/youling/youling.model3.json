@@ -1,0 +1,30 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "youling.moc3",
+    "Textures": [
+      "youling.4096/texture_00.png",
+      "youling.4096/texture_01.png",
+      "youling.4096/texture_02.png",
+      "youling.4096/texture_03.png",
+      "youling.4096/texture_04.png",
+      "youling.4096/texture_05.png",
+      "youling.4096/texture_06.png",
+      "youling.4096/texture_07.png"
+    ],
+    "Physics": "youling.physics3.json",
+    "DisplayInfo": "youling.cdi3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": ["ParamMouthForm", "ParamMouthOpenY"]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": ["ParamEyeLOpen", "ParamEyeROpen"]
+    }
+  ]
+}

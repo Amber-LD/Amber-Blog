@@ -1,0 +1,31 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "kailuo.moc3",
+		"Textures": [
+			"kailuo.8192/texture_00.png"
+		],
+		"Physics": "kailuo.physics3.json",
+		"DisplayInfo": "kailuo.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		}
+	]
+}
