@@ -6,7 +6,7 @@ export const navbar = defineNavbarConfig([
   { text: '标签', link: '/blog/tags/', icon: 'mdi:tag-outline' },
   { text: '归档', link: '/blog/archives/', icon: 'icon-park-outline:page' },
   {
-    text: "书签",
+    text: "站点",
     link: "/sites/",
     icon: "line-md:link",
     activeMatch: "^/sites/",

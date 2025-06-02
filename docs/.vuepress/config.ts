@@ -40,6 +40,9 @@ export default defineUserConfig({
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
+    blog: {
+      include: ['blog/**/*.md'], // 包含的博客目录
+    },
     // blog: false, // 禁用博客
     // blog: {
     //   postList: true, // 是否启用文章列表页

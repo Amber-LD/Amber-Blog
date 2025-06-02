@@ -5,7 +5,7 @@ icon: /assets/images/sites-logo.png
 pageClass: page-sites-nav
 config:
   - type: text-image
-    title: 书签管理器
+    title: 站点管理器
     description: 收集和整理有关学习、影像、文档、论坛等相关网站链接。
     image: /assets/images/sites-logo.png
     width: 200
@@ -15,24 +15,19 @@ config:
   - type: features
     features:
       - title: 学习小楼
-        icon: lucide:cog
+        icon: hugeicons:archive-01
         details: 文档手册、官方社区、第三方库
         link: ./sites-web.md
 
       - title: 综合服务
-        icon: ri:service-line
-        details: 博客、论坛、在线工具、影视影音
-        link: ./service-sites.md
+        icon: hugeicons:service
+        details: 在线工具、图片素材、影视影音
+        link: ./sites-service.md
 
-      - title: Ops 运维
-        icon: grommet-icons:cloud-computer
-        details: 云平台、云原生、部署
-        link: ./ops-sites.md
-
-      - title: AIGC
-        icon: ph:open-ai-logo-light
-        details: 大模型、人工智能、深度思考
-        link: ./aigc-sites.md
+      - title: 梦幻国度
+        icon: hugeicons:airplane-01
+        details: FANCLUB、动漫论坛、游戏社区
+        link: ./sites-grace.md
 
   - type: custom
 permalink: /sites-index/
