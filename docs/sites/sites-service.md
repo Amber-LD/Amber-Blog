@@ -1,7 +1,7 @@
 ---
 title: 综合服务
 createTime: 2025/06/02 11:57:27
-permalink: /sites-index/sites-service/
+permalink: /sites/sites-service
 ---
 
 ::: demo-wrapper

@@ -1,7 +1,7 @@
 ---
 title: 梦幻国度
 createTime: 2025/06/03 01:22:36
-permalink: /sites/sites-grace/
+permalink: /sites/sites-grace
 ---
 
 ::: demo-wrapper

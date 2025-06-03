@@ -3,7 +3,7 @@ title: Markdown
 tags:
   - markdown
 createTime: 2025/04/25 14:54:13
-permalink: /article/pqxzule0/
+permalink: /blog/article/pqxzule0/
 ---
 
 ## 标题H2

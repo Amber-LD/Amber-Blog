@@ -1,7 +1,7 @@
 ---
 title: 学习小楼
 createTime: 2025/05/30 01:35:32
-permalink: /sites-index/sites-web/
+permalink: /sites/sites-web
 ---
 
 ::: demo-wrapper

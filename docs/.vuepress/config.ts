@@ -15,7 +15,7 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    live2dPlugin,
+    // live2dPlugin,
   ],
 
   bundler: viteBundler(),
@@ -54,7 +54,7 @@ export default defineUserConfig({
     // },
 
     /* 博客文章页面链接前缀 */
-    article: '/article/',
+    article: '/blog/article/',
 
     /**
      * 编译缓存，加快编译速度

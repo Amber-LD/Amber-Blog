@@ -2,7 +2,6 @@
 pageLayout: home
 title: 站点导航
 icon: /assets/images/sites-logo.png
-pageClass: page-sites-nav
 config:
   - type: text-image
     title: 站点管理器
@@ -30,27 +29,7 @@ config:
         link: ./sites-grace.md
 
   - type: custom
-permalink: /sites-index/
+permalink: /sites/
 createTime: 2025/05/29 21:07:08
 ---
 
-<style>
-.page-sites-nav {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #ff8736 30%, #ffdf85);
-  --vp-home-hero-image-background-image: linear-gradient(
-    45deg,
-    rgb(255, 246, 215) 50%,
-    rgb(239, 216, 177) 50%
-  );
-  --vp-home-hero-image-filter: blur(33px);
-}
-
-[data-theme="dark"] .page-sites-nav {
-  --vp-home-hero-image-background-image: linear-gradient(
-    45deg,
-    rgba(255, 246, 215, 0.07) 50%,
-    rgba(239, 216, 177, 0.15) 50%
-  );
-}
-</style>
