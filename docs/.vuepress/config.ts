@@ -15,7 +15,7 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    // live2dPlugin,
+    live2dPlugin,
   ],
 
   bundler: viteBundler(),
