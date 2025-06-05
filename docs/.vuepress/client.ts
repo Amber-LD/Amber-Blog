@@ -5,6 +5,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 
 // import CustomComponent from './theme/components/Custom.vue'
+import Amber from './theme/components/Amber.vue'
 
 // import './theme/styles/custom.css'
 import "./theme/styles/index.scss";
@@ -12,6 +13,7 @@ import "./theme/styles/index.scss";
 export default defineClientConfig({
   enhance({ app }) {
     // built-in components
+    app.component('Amber', Amber)
     // app.component('RepoCard', RepoCard)
     // app.component('NpmBadge', NpmBadge)
     // app.component('NpmBadgeGroup', NpmBadgeGroup)

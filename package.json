@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "@iconify/json": "^2.2.336",
+        "lodash-es": "^4.17.21",
         "vuepress-plugin-oh-my-live2d": "^0.19.3"
     }
 }

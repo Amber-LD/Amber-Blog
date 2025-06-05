@@ -8,7 +8,7 @@ export const navbar = defineNavbarConfig([
   {
     text: "站点",
     link: "/sites/",
-    icon: "line-md:link",
+    icon: "mdi:routes",
     activeMatch: "^/sites/",
   },
   {

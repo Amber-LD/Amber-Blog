@@ -6,8 +6,8 @@ import { live2dPlugin } from './live2d';
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: "Carol-LD'Blog",
-  description: "Carol-LD'Blog",
+  title: "Carol-LD",
+  description: "Carol-LD",
 
   head: [
     // 配置站点图标
