@@ -34,7 +34,6 @@ const { extract, updateExtract } = useExtract();
 
 <style scoped>
 .amber-card.hitokoto {
-  height: 100%;
   display: none;
   flex-direction: column;
   align-items: center;

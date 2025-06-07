@@ -41,7 +41,7 @@ onMounted(async () => {
 
 @media (max-width: 767px) {
   .background-inner {
-    background-position: 78% center; /* 60%略向左偏移，数值可根据实际效果调整 */
+    background-position: 78% center; 
   }
 }
 </style>

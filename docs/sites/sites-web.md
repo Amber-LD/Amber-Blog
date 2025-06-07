@@ -1,7 +1,7 @@
 ---
 title: 学习小楼
 createTime: 2025/05/30 01:35:32
-permalink: /sites/sites-web
+permalink: /sites/sites-web/
 ---
 
 ::: demo-wrapper
@@ -31,8 +31,8 @@ permalink: /sites/sites-web
   </LinkCard>
   <LinkCard 
     title="Vue3 - JavaScript框架"
-    href="https://www.seeyjys.eu.org/"
-    icon="https://cn.vuejs.org/logo.svg" >
+    icon="https://cn.vuejs.org/logo.svg"
+    href="https://cn.vuejs.org/">
       易学易用，性能出色，适用场景丰富的 Web 前端框架
       <h6 style="visibility: hidden; height: 0px">Vue3 - JavaScript框架</h6>
   </LinkCard>

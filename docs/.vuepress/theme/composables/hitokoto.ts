@@ -13,7 +13,7 @@ interface HitokotoData {
   from: string
 }
 
-const API = 'https://v1.hitokoto.cn/'
+const API = 'https://v1.hitokoto.cn'
 
 export function useHitokoto() {
   const hitokoto = ref<HitokotoData | null>(null)
@@ -25,7 +25,7 @@ export function useHitokoto() {
     max_length,
     c,
   }: HitokotoParams = {}) {
-    if (cache.value.updatedAt && Date.now() - cache.value.updatedAt < 6000 && cache.value.data) {
+    if (cache.value.updatedAt && Date.now() - cache.value.updatedAt < 3000 && cache.value.data) {
       hitokoto.value = cache.value.data
       return
     }
@@ -60,7 +60,7 @@ export function useHitokoto() {
   /**
    * 更新数据，节流，限制请求频率
    */
-  const updateHitokoto = useThrottleFn(fetchHitokoto, 6000, true)
+  const updateHitokoto = useThrottleFn(fetchHitokoto, 3000, true)
 
   let interval: ReturnType<typeof setInterval> | null = null
   onMounted(() => {

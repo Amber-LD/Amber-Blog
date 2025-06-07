@@ -1,7 +1,7 @@
 ---
 title: 综合服务
 createTime: 2025/06/02 11:57:27
-permalink: /sites/sites-service
+permalink: /sites/sites-service/
 ---
 
 ::: demo-wrapper
@@ -24,8 +24,8 @@ permalink: /sites/sites-service
 <CardGrid>
   <LinkCard 
     title="Squoosh - 图片压缩工具"
-    href="https://squoosh.app/" >
-    icon="https://squoosh.app/c/favicon-c9cf50ef.ico"
+    href="https://squoosh.app/" 
+    icon="https://squoosh.app/c/icon-demo-logo-326ed9b6.png">
       一个开源的图片压缩工具，支持多种图片格式
       <h6 style="visibility: hidden; height: 0px">Squoosh - 图片压缩工具</h6>
   </LinkCard>
