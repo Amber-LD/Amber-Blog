@@ -18,3 +18,26 @@
 [data-theme="dark"] .vp-doc-container {
   --vp-doc-blog-bg: rgba(30, 120, 120, 0.15);
 }
+
+#cursor {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.25;
+  z-index: 78;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+  transition-property: background, opacity, transform;
+
+  &.hidden {
+    opacity: 0;
+  }
+
+  &.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+}

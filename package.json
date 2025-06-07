@@ -1,8 +1,8 @@
 {
-    "name": "amber-blog",
+    "name": "carol-ld",
     "type": "module",
     "version": "1.0.0",
-    "description": "Amber-Blog",
+    "description": "Carol-LD",
     "author": "Amber-LD <15907678387@163.com>",
     "license": "MIT",
     "engines": {
