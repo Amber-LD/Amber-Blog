@@ -62,8 +62,8 @@ permalink: /sites/sites-service/
 <CardGrid>
   <LinkCard
     title="HIFINI - 音乐磁场"
-    href="https://www.hifini.com/"
-    icon="https://www.hifini.com/view/img/favicon.ico" >
+    href="https://www.hifini.com.cn//"
+    icon="https://www.hifini.com.cn//view/img/favicon.ico" >
       一个音乐社区，提供音乐分享、评论和交流的平台
       <h6 style="visibility: hidden; height: 0px">HIFINI - 音乐磁场</h6>
   </LinkCard>    

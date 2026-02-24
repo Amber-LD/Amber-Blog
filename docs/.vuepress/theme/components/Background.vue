@@ -41,7 +41,7 @@ onMounted(async () => {
 
 @media (max-width: 767px) {
   .background-inner {
-    background-position: 78% center; 
+    background-position: 47% center; 
   }
 }
 </style>

@@ -12,6 +12,12 @@ export const navbar = defineNavbarConfig([
     activeMatch: "^/sites/",
   },
   {
+    text: "备忘",
+    link: "/memo/",
+    icon: "hugeicons:audit-02",
+    activeMatch: "^/memo/",
+  },
+  {
     text: '笔记',
     items: [{ text: '示例', link: '/notes/demo/README.md' }],
     icon: 'material-symbols:note-alt-outline'

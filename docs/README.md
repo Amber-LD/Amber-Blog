@@ -18,4 +18,8 @@ config:
         link: /sites/
         icon: mdi:routes
 
+      - text: 备忘手册
+        link: /memo/
+        icon: hugeicons:audit-02
+
 ---
