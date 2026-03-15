@@ -18,8 +18,10 @@ export const navbar = defineNavbarConfig([
     activeMatch: "^/memo/",
   },
   {
-    text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }],
-    icon: 'material-symbols:note-alt-outline'
+    text: '浮生',
+    link: "/notes/",
+    // items: [{ text: '示例', link: '/notes/demo/README.md' }],
+    icon: 'material-symbols:note-alt-outline',
+    activeMatch: "^/notes",
   },
 ])

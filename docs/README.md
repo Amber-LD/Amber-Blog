@@ -22,4 +22,8 @@ config:
         link: /memo/
         icon: hugeicons:audit-02
 
+      - text: 妙笔浮生
+        link: /notes/
+        icon: material-symbols:note-alt-outline
+
 ---

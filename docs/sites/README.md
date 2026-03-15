@@ -1,12 +1,12 @@
 ---
 pageLayout: home
 title: 站点导航
-icon: /assets/images/sites-logo.png
+icon: /assets/images/sites-logo.webp
 config:
   - type: text-image
     title: 站点导航
     description: 收集和整理有关学习文档社区、影音图像工具、论坛俱乐部等相关网站链接。
-    image: /assets/images/sites-logo.png
+    image: /assets/images/sites-logo.webp
     width: 200
     list: []
 
