@@ -18,9 +18,10 @@ config:
         details: HTML+CSS基础知识
         link: /notes/note001/
 
-      - title: 待定
-        icon: hugeicons:service
-        details: 待定
+      - title: JavaScript详细版
+        icon: 🧋
+        details: JavaScript详细知识（不包含ES6）
+        link: /notes/note002/
 
       - title: 待定
         icon: hugeicons:airplane-01
