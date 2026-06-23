@@ -18,8 +18,14 @@ const note002 = defineNoteConfig({
   sidebar: ['', '01.JS概述','02.JS语法基础','03.运算符','04.流程控制','05.函数','06.标准库','07.dom核心', '08.dom事件', '09.bom', '10.JS进阶'],
 })
 
+const note003 = defineNoteConfig({
+  dir: 'HTML+CSS收官',
+  link: '/notes/note003/',
+  sidebar: ['', '01.HTML+CSS收官1', '02.HTML+CSS收官2'],
+})
+
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/notes',
-  notes: [note001, note002],
+  notes: [note001, note002, note003],
 })

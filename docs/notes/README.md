@@ -23,9 +23,11 @@ config:
         details: JavaScript详细知识（不包含ES6）
         link: /notes/note002/
 
-      - title: 待定
-        icon: hugeicons:airplane-01
-        details: 待定
+      - title: HTML+CSS收官
+        icon: 🍫
+        details: HTML+CSS额外知识
+        link: /notes/note003/
+
 
   - type: custom
 permalink: /notes/
